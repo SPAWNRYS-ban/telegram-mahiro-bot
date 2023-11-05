@@ -21,15 +21,15 @@ const (
 	MAX_NAME_CHARACTERS  = 20
 	EMOJI_REGEX          = "[\U00010000-\U0010ffff]"
 	SYMBOL_REGEX         = "[@#$-/:-?{-~!\"^_`\\[\\]]"
-	COMMAND              = "drawtext=fontfile=%s/%s:text='Welcome to the group\\! %s-kun\\!':bordercolor=black:borderw=1:fontcolor=white:fontsize=25:x=(w-text_w)/2:y=h-th-20:enable='gte(t,1.5)'"
+	COMMAND              = "drawtext=fontfile=%s/%s:text='Добро пожаловать\\! %s-кун\\!':bordercolor=black:borderw=1:fontcolor=white:fontsize=25:x=(w-text_w)/2:y=h-th-20:enable='gte(t,1.5)'"
 	INPUT_FILE           = "%s/greeting.mp4"
 	GCP_DIR              = "./serverless_function_source_code"
 
 	START_REPLY = `Wewcome! OwO
-Senko-san onwy wowks on gwouwps. Juwst add me to uw gwouwp and i'ww gweat aww newcomews.
+Mahiro onwy wowks on gwouwps. Juwst add me to uw gwouwp and i'ww gweat aww newcomews.
 If u want me to give u a gweeting gif with cuwstom name, uwse command /genewate [name]. That command onwy wowks hewe and not in gwouwps UwU
 Use command /wepo to get a wink to my souwwce code on GitHuwb.`
-	REPO_URL                   = "https://github.com/4Kaze/telegram-senko-bot"
+	REPO_URL                   = "https://github.com/SPAWNRYS-ban/telegram-mahiro-bot"
 	GENERATE_USAGE             = "Usage: /genewate [name], whewe [name] is uw name OwO"
 	GENERATION_STARTED_MESSAGE = "Gotcha! OwO howd on, it wiww take a dozen seconds"
 	START_COMMAND              = "/start"
